@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sampleproject-repository-data-site-development" />
+        <module name="sampleproject-essentials" />
+        <module name="sampleproject-repository-data-webfiles" />
+        <module name="sampleproject-repository-data-application" />
+        <module name="sampleproject-components" />
+        <module name="sampleproject-cms" />
+        <module name="sampleproject-repository-data-development" />
+        <module name="sampleproject-repository-data-site" />
+        <module name="sampleproject-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sampleproject" target="1.5" />
+      <module name="sampleproject-cms" target="1.5" />
+      <module name="sampleproject-cms-dependencies" target="1.5" />
+      <module name="sampleproject-components" target="1.5" />
+      <module name="sampleproject-essentials" target="1.5" />
+      <module name="sampleproject-repository-data" target="1.5" />
+      <module name="sampleproject-repository-data-application" target="1.5" />
+      <module name="sampleproject-repository-data-development" target="1.5" />
+      <module name="sampleproject-repository-data-site" target="1.5" />
+      <module name="sampleproject-repository-data-site-development" target="1.5" />
+      <module name="sampleproject-repository-data-webfiles" target="1.5" />
+      <module name="sampleproject-site" target="1.5" />
+      <module name="sampleproject-webapp" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

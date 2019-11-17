@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sampleproject-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/site/webapp/target/site</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>sampleproject-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sampleproject-webapp" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/site/webapp/target/site/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sampleproject-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>

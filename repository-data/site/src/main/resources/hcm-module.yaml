@@ -1,0 +1,6 @@
+group: 
+  name: sampleproject
+  after: hippo-cms
+project: sampleproject
+module:
+  name: sampleproject-repository-data-site

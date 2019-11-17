@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    sampleproject:
+      uri: http://www.sampleproject.com/sampleproject/nt/1.0
+      cnd: namespaces/sampleproject.cnd

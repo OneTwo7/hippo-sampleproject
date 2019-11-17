@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sampleproject-essentials:war exploded">
+    <output-path>$PROJECT_DIR$/essentials/target/essentials</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>sampleproject-essentials</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sampleproject-essentials" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/essentials/target/essentials/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sampleproject-essentials/web/Web" />
+    </root>
+  </artifact>
+</component>
