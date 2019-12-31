@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/sampleproject/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /sampleproject-catalog:
+        jcr:primaryType: hst:containeritempackage

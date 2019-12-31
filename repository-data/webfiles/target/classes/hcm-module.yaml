@@ -1,0 +1,5 @@
+group: 
+  name: sampleproject
+project: sampleproject
+module:
+  name: sampleproject-repository-data-webfiles
