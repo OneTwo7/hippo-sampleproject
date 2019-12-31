@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
-  <projectNamespace>sampleproject</projectNamespace>
-  <confirmParams>false</confirmParams>
-  <selectedProjectPackage>org.kv.example</selectedProjectPackage>
-  <selectedBeansPackage>org.kv.example.beans</selectedBeansPackage>
-  <selectedComponentsPackage>org.kv.example.components</selectedComponentsPackage>
-  <selectedRestPackage>org.kv.example.rest</selectedRestPackage>
-  <hstRoot>/hst:sampleproject</hstRoot>
-  <webfileBundleName>site</webfileBundleName>
-  <setupDone>false</setupDone>
-  <useSamples>true</useSamples>
-  <extraTemplates>true</extraTemplates>
+    <applicationSubModule>application</applicationSubModule>
+    <cmsDependenciesModule>cms-dependencies</cmsDependenciesModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <developmentSubModule>development</developmentSubModule>
+    <enterprise>false</enterprise>
+    <extraTemplates>true</extraTemplates>
+    <hstRoot>/hst:sampleproject</hstRoot>
+    <projectNamespace>sampleproject</projectNamespace>
+    <repositoryDataModule>repository-data</repositoryDataModule>
+    <selectedBeansPackage>org.kv.example.beans</selectedBeansPackage>
+    <selectedComponentsPackage>org.kv.example.components</selectedComponentsPackage>
+    <selectedProjectPackage>org.kv.example</selectedProjectPackage>
+    <selectedRestPackage>org.kv.example.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteContextPath>/site</siteContextPath>
+    <siteModule>site</siteModule>
+    <useSamples>true</useSamples>
+    <webfileBundleName>site</webfileBundleName>
+    <webfilesSubModule>webfiles</webfilesSubModule>
 </project>

@@ -1,0 +1,32 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/sampleproject:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        sampleproject:content: Content
+        sampleproject:image: Image
+        sampleproject:link: Link
+        sampleproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        sampleproject:content: Inhoud
+        sampleproject:image: Afbeelding
+        sampleproject:link: Link
+        sampleproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        sampleproject:content: Contenu
+        sampleproject:image: Image
+        sampleproject:link: Lien
+        sampleproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        sampleproject:content: Inhalt
+        sampleproject:image: Abbildung
+        sampleproject:link: Link
+        sampleproject:title: Titel
